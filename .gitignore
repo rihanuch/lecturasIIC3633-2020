@@ -1,3 +1,4 @@
 # Repository will contain (locally) pdf files for ease of viewing in same text editor
 # for copyright purposes these will not be uploaded
 *.pdf
+.DS_Store

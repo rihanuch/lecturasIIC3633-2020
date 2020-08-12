@@ -8,6 +8,8 @@ Por otro lado, sería interesante intentar un *approach* híbrido en que se se d
 
 Otro aspecto interesante es el hecho de que se haya utilizado una penalización de la magnitud de las *features* y el hecho de que hayan limitado el rango de la sugerencia si es más de 5 o menor a 1, lo cual, a vista simple, parece algo prometedor al darle un peso "variable" a los diferentes categorías que podrían ser un detractor para mirar la película.
 
+A pesar de que, a priori, el hacer *clipping* parezca una buena idea, esto no está respaldado por otros métodos que podrían ser mejores, por lo que cabe hacerse la preguntas ¿cómo se podría cuantificar el efecto de este *clipping* en las recomendaciones? y  ¿afecta el *clipping* de manera significativa en las recomendaciones?
+
 Una crítica que se le puede hacer a la publicación es que, para efectos prácticos, se utiliza un número arbitrario de categorias de gustos para las películas y para los usuarios. No se da una explicación de dónde surge el número en el que se descompone, o al menos, no queda muy claro.
 
 ---

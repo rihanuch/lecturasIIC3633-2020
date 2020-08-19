@@ -8,3 +8,9 @@ Buenos comentarios
 - Un mini resumen del tema del paper, como contexto
 - Comentario de aspectos interesantes
 - Crítica a lo que consideren que no fue adecuado
+
+---
+Para generar un nuevo set de lecturas se puede ejecutar:
+```sh
+./review_generator <número de lectura> <cantidad de papers>
+```

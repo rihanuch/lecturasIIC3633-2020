@@ -1,6 +1,14 @@
 # A User-Centric Evaluation Framework of Recommender Systems
 
-*Análisis acá*
+Debido a que los sistemas recomendadores hoy en día tienen cada vez más importancia para los *e-commerce* y para los usuarios mismos, es importatne poder hacer una métrica de evaluación de estos modelos. En este sentido, el *paper* plantea un modelo para evaluar cuán bueno es un modelo, más allá de qué tan bien predice, sino que qué tan bien funciona en la realidad cuando es puesto dentro de un sistema.
+
+Una idea central que hay detrás del modelo planteado es poder mejorar la usabilidad de los modelos recomendadores, ya que permite que las áreas de marketing y desarrolladores puedan entender si los usuarios realmente están percibiendo beneficios del modelo. En este sentido es muy interesante notar que un sistema recomendador no necesariamente es mejor simplemente por ser más preciso, algo que uno inicialmente puede no haber pensado.
+
+Otro aspecto interesante de lo presentado es que se plantea la noción de que una buena explicación por parte del sistema ayuda a que el usuario sienta más confianza hacia este y tenga mayores niveles de satisfacción. El problema de lo planteado anteriormente es que se require información contextual para poder hacer esta "mejor recomendación", algo que a priori puede no ser un conflicto. El problema surge en la línea que delimita transparencia del sistema con confianza, es decir, cuando el sistema le dice al usuario, por ejempo "te recomiendo X porque estás triste". En este sentido, es importante que el sistema tampoco sea 100% transparente.
+
+Por otro lado, es interesante notar que un sistema puede predecir extremadamente bien, pero finalmente su usabilidad no va a depender solo del modelo, sino que también de cuándo y cómo se muestren las recomendaciones. En este sentido es un desafío poder aislar las diferentes partes del proceso, ya que son dependientes.
+
+Una crítica que se le puede hacer al *paper* es el hecho de que termina "delegando" gran parte de la responsabilidad de la recomendación a la interfaz gráfica. Esto es, por ejemplo, la pregunta métrica "I am not interested in the items recommended to me" puede ser afectada fuertemente no por la recomendación en si misma, sino que, por ejemplo, la foto que se mostró de la recomendación hecha. En este sentido, el paper no delimita qué parte es "responsabilidad" del modelo y qué partes son "responsabilidad" de los desarrolladores, lo cual podría hacer que se puedan tener preguntas más precisas al momento de hacer la evaluación de la recomendación integrada.
 
 ---
 ## Notas del texto (guía de esquema de ideas)
